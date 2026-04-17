@@ -7,4 +7,4 @@ Este es nuestro proyecto en Docker
 - Raul
 - Karen
 - Luis
-- otro
+- Misael
