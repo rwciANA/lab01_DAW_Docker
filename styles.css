@@ -1,0 +1,51 @@
+body {
+    font-family: Arial;
+    margin: 0;
+}
+
+header, footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+nav {
+    background: #555;
+    text-align: center;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+}
+
+/* SECCIÓN ALUMNOS */
+.alumnos {
+    display: flex;
+    justify-content: space-between; /* izquierda, centro, derecha */
+    padding: 40px;
+}
+
+.nombre {
+    background: #ddd;
+    padding: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 100px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.nombre:hover {
+    background: #bbb;
+}
+
+/* INFO */
+#info {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 18px;
+}
