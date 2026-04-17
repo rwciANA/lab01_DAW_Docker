@@ -1,2 +1,9 @@
-# lab01_DAW_Docker
-lab_01
+# Mi Proyecto 🚀
+
+Este es nuestro proyecto en Docker
+
+## Integrantes
+
+- Raul
+- Karen
+- Luis
