@@ -28,7 +28,11 @@ function mostrar(alumno) {
 
 function enviar() {
     let nombre = document.getElementById("nombre").value;
-    alert("Mensaje enviado por: " + nombre);
+    let email = document.getElementById("email").value;
+
+    if (nombre !== "" && email !== "") {
+        alert("¡Gracias " + nombre + "! Hemos recibido tu mensaje. Nos pondremos en contacto al correo: " + email);
+    }
 }
 
 
