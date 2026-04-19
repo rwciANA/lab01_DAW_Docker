@@ -6,5 +6,5 @@ Este es nuestro proyecto en Docker
 
 - Raul
 - Karen
-- Luis
+- Diana
 - Misael
