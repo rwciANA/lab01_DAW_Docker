@@ -1,51 +1,146 @@
 body {
-    font-family: Arial;
+    font-family: Arial, sans-serif;
     margin: 0;
+    background: linear-gradient(to right, #fbc2eb, #a6c1ee);
+    text-align: center;
 }
 
-header, footer {
-    background: #333;
-    color: white;
-    text-align: center;
-    padding: 10px;
+header {
+    padding: 30px;
+}
+
+h1 {
+    font-size: 50px;
+    color: #1e3a8a;
+}
+
+.descripcion {
+    max-width: 800px;
+    margin: auto;
+    font-size: 18px;
+    color: #333;
 }
 
 nav {
-    background: #555;
-    text-align: center;
-    padding: 10px;
+    margin: 20px;
 }
 
 nav a {
-    color: white;
     margin: 10px;
     text-decoration: none;
+    color: #1e3a8a;
+    font-weight: bold;
+    font-size: 18px;
 }
 
-/* SECCIÓN ALUMNOS */
-.alumnos {
+h2 {
+    font-size: 35px;
+    margin-top: 40px;
+}
+
+.contenedor {
     display: flex;
-    justify-content: space-between; /* izquierda, centro, derecha */
-    padding: 40px;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
 }
 
-.nombre {
-    background: #ddd;
-    padding: 15px;
-    border-radius: 10px;
-    cursor: pointer;
-    width: 100px;
+.card {
+    background: linear-gradient(135deg, #3b82f6, #ec4899);
+    color: white;
+    padding: 20px 30px;
+    border-radius: 15px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+footer {
+    margin-top: 50px;
+    padding: 20px;
+}
+
+
+
+
+
+/* Fondo estilo Instagram */
+.perfil-body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #833ab4, #fd1d1d, #fcb045);
+    font-family: Arial, sans-serif;
+}
+
+/* Tarjeta */
+.perfil-card {
+    background: white;
+    padding: 30px;
+    border-radius: 20px;
     text-align: center;
+    width: 300px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+    animation: aparecer 1s ease;
+}
+
+/* Animación entrada */
+@keyframes aparecer {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Imagen redonda */
+.perfil-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #ec4899;
+}
+
+/* Bio */
+.bio {
+    font-size: 14px;
+    color: #555;
+}
+
+/* Hobbies estilo chips */
+.hobbies span {
+    display: inline-block;
+    background: #f3f3f3;
+    margin: 5px;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+/* Botones tipo app */
+.btn {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 15px;
+    border-radius: 10px;
+    background: linear-gradient(135deg, #3b82f6, #ec4899);
+    color: white;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
     transition: 0.3s;
 }
 
-.nombre:hover {
-    background: #bbb;
-}
-
-/* INFO */
-#info {
-    text-align: center;
-    margin-top: 20px;
-    font-size: 18px;
+.btn:hover {
+    transform: scale(1.1);
 }

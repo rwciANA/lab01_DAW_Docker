@@ -30,3 +30,8 @@ function enviar() {
     let nombre = document.getElementById("nombre").value;
     alert("Mensaje enviado por: " + nombre);
 }
+
+
+function cambiarColor() {
+    document.body.style.background = "linear-gradient(135deg, #36d1dc, #5b86e5)";
+}
